@@ -1,0 +1,18 @@
+{
+  "name": "data-service-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/data-service-mock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sandbox": "npm run build && node ./sandbox/index.js",
+    "build": "rollup ./src/index.js --format cjs --file ./dist/data-service-mock.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.62.0"
+  }
+}
